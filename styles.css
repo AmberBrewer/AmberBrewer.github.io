@@ -25,7 +25,14 @@ h1{
     font-weight: bold;
 }
 img{
-    width: 50%;
+    width: 30%;
     height: 50%;
     border-radius: 50%;
+}
+.hero{
+    outline: 10px black;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
