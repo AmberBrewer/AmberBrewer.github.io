@@ -19,6 +19,12 @@ html.body{
 body{
     text-align: center;
 }
+section{
+    border-top: 2px dashed darkorchid;
+    padding: 50px 0;
+    max-width: 800px;
+    margin:0 auto;
+}
 h1{
     font-size: 36px;
     line-height: 50px;
@@ -46,8 +52,6 @@ img{
     margin-right: auto;
     overflow: hidden;
     transition: transform 1s;
-    
-
 }
 .headshot:hover{
     transform: rotate(360deg);
